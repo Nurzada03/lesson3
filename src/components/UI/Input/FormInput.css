@@ -1,0 +1,21 @@
+.styleLabel {
+  color: rgb(20, 20, 20);
+  font-weight: bold;
+}
+.styleInput {
+  background-color: blueviolet;
+  background-color: aliceblue;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: aliceblue;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+.dataForm {
+  margin-top: 30px;
+}

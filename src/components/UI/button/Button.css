@@ -1,0 +1,26 @@
+.btn {
+  background-color: #4a026b;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.btnForm {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-right: 60px;
+}
+.btnStyle {
+  background-color: #4a026b;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.btnContainer {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
