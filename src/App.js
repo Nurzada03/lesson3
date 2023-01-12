@@ -30,11 +30,14 @@ const addNewExpenseHadler = (data) =>{
 
   return (
     <div className="App">
-      <div className="inner-container">
+      <div>
+         <div className="inner-container">
         <NewExpense onNewExpenseAdd={addNewExpenseHadler} />
       </div>
 
       <Expenses expenses={expenses} />
+      </div>
+     
     </div>
   );
 }

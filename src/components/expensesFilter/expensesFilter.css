@@ -1,0 +1,18 @@
+.expenses-filter_control{
+    display: flex;
+    justify-content: space-between;
+    color: beige;
+    align-items: center;
+    height: 70px;
+}
+.labelText{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.selectContainr{
+    padding: 10px;
+    border: 0 solid;
+    border-radius: 10px;
+    width: 110px;
+}

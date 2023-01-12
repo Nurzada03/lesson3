@@ -2,10 +2,13 @@
  padding: 100px;
   background-color: #3f3f3f;
   margin: 30px;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
 }
 
 .inner-container {
-  width: 1200px;
+
   display: flex;
   align-items: center;
   justify-content: center;

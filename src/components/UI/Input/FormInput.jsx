@@ -22,7 +22,6 @@ const FormInput = ({
         placeholder={placeholder || "..."}
         id={id}
         className={styleInput}
-        
         {...rest}
       />
     </form>

@@ -7,10 +7,7 @@ const ExpenseForm = (props) => {
   const [title, setTitle] = useState("");
   const [price, setPrice] = useState("");
   const [date, setDate] = useState("");
-  const  enabled  = 
-  title.length > 0 && 
-  date.length > 0 && 
-  price.length > 0 ;
+  const enabled = title.length > 0 && date.length > 0 && price.length > 0;
   const cancelHandler = (event) => {
     event.preventDefault();
     props.onShowForm();
@@ -28,8 +25,8 @@ const ExpenseForm = (props) => {
     props.onExpenseAdd(expenseData);
 
     setTitle("");
-        setPrice("");
-            setDate("");
+    setPrice("");
+    setDate("");
   };
   const titleInputChangeHandler = (e) => {
     setTitle(e.target.value);
